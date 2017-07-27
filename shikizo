@@ -6,6 +6,9 @@ a.sort(function(a, b) {
   return a - b;
   });
 
+// Your sort can be called directly var aSorted = a.sort();
+//https://www.w3schools.com/js/js_array_sort.asp
+
 var i;
 
 for(i=0;i<a.length;i++){
