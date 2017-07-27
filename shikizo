@@ -1,0 +1,26 @@
+var a = [1, 2, 3, 4];
+
+function duplicate (){
+
+a.sort(function(a, b) {
+  return a - b;
+  });
+
+// Your sort can be called directly var aSorted = a.sort();
+//https://www.w3schools.com/js/js_array_sort.asp
+
+var i;
+
+for(i=0;i<a.length;i++){
+ if(a[i] === a[i+1]){
+ return true;
+ }
+     }
+ return false;
+  }
+
+console.log(duplicate(a));
+
+
+//If duplicate = True
+//No Duplicate =False
